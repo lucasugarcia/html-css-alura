@@ -94,10 +94,6 @@ footer {
     margin-top: 20px;
 }
 
-main {
-    
-}
-
 form {
     margin: 40px 0;
 }
@@ -226,6 +222,10 @@ td, th {
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
 }
 
 .imagem-beneficios {
